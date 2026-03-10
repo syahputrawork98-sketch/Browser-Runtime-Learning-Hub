@@ -1,195 +1,252 @@
-# Web API Learning Hub
+# Browser Runtime Knowledge Base
 
-Web API Learning Hub adalah sebuah **rak buku pembelajaran Web API pada browser** yang disusun dalam bentuk **monorepo**.
+Repositori ini adalah **basis pengetahuan terstruktur** untuk memahami **bagaimana JavaScript berjalan di dalam browser**.
 
-Repository ini berisi kumpulan buku yang membahas berbagai **Web APIs yang tersedia di Web Platform** seperti DOM, Fetch API, Storage API, WebSocket, Service Worker, dan banyak API browser lainnya.
+Repositori ini disusun seperti **sebuah perpustakaan pembelajaran**, di mana konsep-konsep dikelompokkan ke dalam **sub-rak (domain)** dan **buku (topik)**.
+Tujuannya adalah membangun **model mental yang jelas tentang sistem runtime browser**, mulai dari arsitektur browser hingga proses rendering.
 
-Setiap folder buku di repository ini merupakan **sebuah buku yang fokus pada satu kelompok Web API tertentu**, sehingga materi dapat dipelajari secara modular dan terstruktur.
-
-Repository ini dirancang agar dapat berkembang secara bertahap dan diperbarui seiring dengan perkembangan spesifikasi Web Platform.
-
----
-
-# Filosofi Repository
-
-Web API Learning Hub menggunakan pendekatan **rak buku (bookshelf architecture)**.
-
-Struktur konsepnya adalah sebagai berikut:
-
-* Repository ini adalah **rak buku utama**
-* Setiap folder `book-*` adalah **sebuah buku**
-* Setiap buku fokus pada **satu domain Web API**
-* Setiap buku memiliki dokumentasi, aturan, dan roadmap sendiri
-
-Pendekatan ini membantu menjaga:
-
-* struktur pembelajaran tetap modular
-* topik tidak saling tercampur
-* pembaruan materi lebih mudah dilakukan
+Proyek ini dirancang sebagai **dokumentasi yang hidup (living documentation)** yang dapat terus berkembang seiring perubahan teknologi browser.
 
 ---
 
-# Struktur Repository
+# Tujuan
 
-Struktur utama repository ini:
+Aplikasi web modern sangat bergantung pada **lingkungan runtime browser**.
+Namun memahami bagaimana JavaScript benar-benar berjalan di dalam browser membutuhkan pemahaman dari berbagai sistem yang saling berkaitan.
+
+Basis pengetahuan ini bertujuan menjelaskan:
+
+* bagaimana browser disusun secara arsitektural
+* bagaimana JavaScript engine bekerja
+* bagaimana memori dikelola
+* bagaimana eksekusi asynchronous terjadi
+* bagaimana runtime berinteraksi dengan sistem browser
+* bagaimana proses rendering terjadi
+
+Tujuan akhirnya adalah membangun **pemahaman menyeluruh tentang cara kerja runtime browser**.
+
+---
+
+# Ruang Lingkup
+
+Repositori ini berfokus khusus pada **runtime JavaScript di dalam browser**.
+
+Topik yang dibahas meliputi:
+
+* Arsitektur browser
+* JavaScript engine
+* Sistem memori
+* Model eksekusi JavaScript
+* Scheduling dan koordinasi runtime
+* Rendering pipeline
+
+Repositori ini **tidak bertujuan mendokumentasikan seluruh Web APIs** secara lengkap.
+
+Web APIs dipisahkan karena ruang lingkupnya sangat luas dan lebih cocok didokumentasikan dalam repositori atau sistem dokumentasi tersendiri.
+
+---
+
+# Struktur Repositori
+
+Repositori ini disusun seperti **struktur perpustakaan**.
 
 ```
-web-api-learning-hub
+Browser Runtime Knowledge Base
 │
-├─ README.md
-├─ docs/
+├─ Sub-rak 1 — Browser Architecture
 │
-├─ book-01-web-platform-fundamentals
-├─ book-02-dom-fundamentals
-├─ book-03-dom-manipulation
-├─ book-04-dom-events-system
-├─ book-05-fetch-api-and-http-requests
-├─ book-06-browser-storage-apis
-├─ book-07-cookies-api
-├─ book-08-timing-apis
-├─ book-09-url-and-navigation-apis
-├─ book-10-history-api
-├─ book-11-form-apis
-├─ book-12-file-and-blob-apis
-├─ book-13-drag-and-drop-api
-├─ book-14-clipboard-api
-├─ book-15-canvas-graphics-api
-├─ book-16-media-apis-audio-and-video
-├─ book-17-geolocation-api
-├─ book-18-web-workers-api
-├─ book-19-websocket-api
-└─ book-20-service-worker-and-offline-apis
+├─ Sub-rak 2 — JavaScript Engine
+│
+├─ Sub-rak 3 — Memory System
+│
+├─ Sub-rak 4 — Web APIs
+│
+├─ Sub-rak 5 — Execution Model
+│
+├─ Sub-rak 6 — Scheduling & Runtime Interaction
+│
+└─ Sub-rak 7 — Rendering System
 ```
 
----
+Setiap **sub-rak** mewakili satu domain utama dalam runtime browser.
 
-# Daftar Buku
-
-Repository ini saat ini berisi koleksi buku berikut.
-
-| No | Buku                          |
-| -- | ----------------------------- |
-| 1  | Web Platform Fundamentals     |
-| 2  | DOM Fundamentals              |
-| 3  | DOM Manipulation              |
-| 4  | DOM Events System             |
-| 5  | Fetch API & HTTP Requests     |
-| 6  | Browser Storage APIs          |
-| 7  | Cookies API                   |
-| 8  | Timing APIs                   |
-| 9  | URL & Navigation APIs         |
-| 10 | History API                   |
-| 11 | Form APIs                     |
-| 12 | File & Blob APIs              |
-| 13 | Drag and Drop API             |
-| 14 | Clipboard API                 |
-| 15 | Canvas Graphics API           |
-| 16 | Media APIs (Audio & Video)    |
-| 17 | Geolocation API               |
-| 18 | Web Workers API               |
-| 19 | WebSocket API                 |
-| 20 | Service Worker & Offline APIs |
-
-Setiap buku memiliki:
-
-* `README.md` untuk menjelaskan buku tersebut
-* `docs/` untuk aturan penulisan dan scope buku
-* struktur materi yang berdiri sendiri
+Setiap **buku** di dalam sub-rak membahas satu konsep spesifik secara lebih mendalam.
 
 ---
 
-# Pembaruan Konten
+# Sub-Rak
 
-Web Platform dan Web APIs berkembang cukup cepat. Oleh karena itu repository ini dirancang agar dapat:
+## 1. Browser Architecture
 
-* diperbarui secara berkala
-* mengikuti perubahan spesifikasi Web
-* menerima pembaruan otomatis jika diperlukan
+Menjelaskan arsitektur dasar browser modern.
 
-Perubahan dapat berasal dari:
+Topik yang dibahas:
 
-* update spesifikasi Web
-* update dokumentasi resmi
-* revisi materi pembelajaran
-* kontribusi dari komunitas
+* Web Platform Overview
+* Browser Architecture
+* Browser Processes
+* Browser Threads
 
-Beberapa bagian dokumentasi juga dapat **diperbarui secara otomatis** dengan bantuan alat atau AI untuk menjaga materi tetap relevan dengan spesifikasi terbaru.
+---
+
+## 2. JavaScript Engine
+
+Menjelaskan bagaimana kode JavaScript diproses dan dijalankan.
+
+Topik yang dibahas:
+
+* JavaScript Engine Overview
+* Parsing & Compilation
+* Execution Context
+* Call Stack
+
+---
+
+## 3. Memory System
+
+Menjelaskan bagaimana memori dikelola dalam runtime JavaScript.
+
+Topik yang dibahas:
+
+* Memory Model
+* Garbage Collection
+
+---
+
+## 4. Web APIs
+
+Menjelaskan sistem browser yang dapat diakses oleh JavaScript.
+
+Topik yang dibahas:
+
+* DOM APIs
+* Fetch & Network APIs
+* Timers API
+* Web Workers
+
+---
+
+## 5. Execution Model
+
+Menjelaskan bagaimana eksekusi JavaScript dikoordinasikan.
+
+Topik yang dibahas:
+
+* Event Loop
+* Task Queue
+* Microtask Queue
+* Asynchronous Execution Model
+
+---
+
+## 6. Scheduling & Runtime Interaction
+
+Menjelaskan bagaimana browser menjadwalkan dan mengoordinasikan berbagai proses runtime.
+
+Topik yang dibahas:
+
+* Timers & Scheduling
+* Runtime Interaction with Browser Systems
+
+---
+
+## 7. Rendering System
+
+Menjelaskan bagaimana operasi runtime akhirnya menghasilkan tampilan visual di layar.
+
+Topik yang dibahas:
+
+* Rendering Pipeline
+* Runtime Performance
+
+---
+
+# Alur Pembelajaran
+
+Urutan pembelajaran yang direkomendasikan mengikuti **alur alami bagaimana JavaScript berjalan di dalam browser**:
+
+```
+Browser Architecture
+        ↓
+JavaScript Engine
+        ↓
+Memory System
+        ↓
+Web APIs
+        ↓
+Execution Model
+        ↓
+Scheduling
+        ↓
+Rendering
+```
+
+Urutan ini membantu membangun pemahaman bertahap tentang **siklus hidup eksekusi JavaScript di browser**.
+
+---
+
+# Living Knowledge Base
+
+Repositori ini dirancang sebagai **basis pengetahuan yang terus berkembang**.
+
+Setiap topik diharapkan memuat:
+
+* penjelasan konsep
+* referensi ke spesifikasi resmi
+* sumber pembelajaran tambahan
+* tanggal peninjauan atau pembaruan jika diperlukan
+
+Jika standar browser atau implementasi engine berubah, dokumentasi di repositori ini juga dapat diperbarui mengikuti perkembangan tersebut.
 
 ---
 
 # Sumber Referensi
 
-Materi dalam repository ini disusun berdasarkan berbagai sumber resmi dan dokumentasi teknis Web Platform.
+Sumber utama yang digunakan dalam basis pengetahuan ini antara lain:
 
-Sumber utama yang digunakan antara lain:
-
-### Spesifikasi Web
-
-* WHATWG HTML Standard
-  https://html.spec.whatwg.org/
-
-* WHATWG DOM Standard
-  https://dom.spec.whatwg.org/
-
-* Fetch Standard
-  https://fetch.spec.whatwg.org/
-
-* WebSocket Standard
-  https://websockets.spec.whatwg.org/
-
-* Service Worker Specification
-  https://w3c.github.io/ServiceWorker/
-
----
-
-### Dokumentasi Referensi
-
+* WHATWG Specifications
+* W3C Specifications
+* Dokumentasi Chromium
+* Dokumentasi V8
 * MDN Web Docs
-  https://developer.mozilla.org/
+* Blog engineering resmi dari vendor browser
 
-* Web.dev
-  https://web.dev/
-
----
-
-### Standar Web
-
-* W3C
-  https://www.w3.org/
-
-* WHATWG
-  https://whatwg.org/
+Jika memungkinkan, setiap penjelasan konsep sebaiknya merujuk pada **spesifikasi atau dokumentasi implementasi resmi**.
 
 ---
 
-# Tujuan Proyek
+# Panduan Kontribusi
 
-Tujuan utama dari Web API Learning Hub adalah:
+Untuk menjaga kualitas dokumentasi:
 
-* membangun referensi pembelajaran Web API yang terstruktur
-* memecah topik Web API menjadi buku-buku kecil yang fokus
-* menyediakan dokumentasi yang mudah diperbarui
-* mempermudah eksplorasi Web Platform bagi developer
-
----
-
-# Dokumentasi Tambahan
-
-Dokumentasi aturan repository dapat ditemukan di folder berikut:
-
-```
-docs/
-```
-
-Folder ini berisi:
-
-* aturan struktur repository
-* aturan penulisan materi
-* scope global repository
-* pedoman kontribusi
+* Setiap topik sebaiknya menyertakan **sumber referensi yang jelas**
+* Penjelasan difokuskan pada **pemahaman konsep**
+* Hindari menyalin dokumentasi eksternal secara berlebihan
+* Gunakan referensi spesifikasi jika tersedia
 
 ---
 
-# Lisensi
+# Filosofi Proyek
 
-Repository ini menggunakan lisensi yang akan ditentukan pada tahap selanjutnya.
+Repositori ini dibangun berdasarkan tiga prinsip utama.
+
+### Pengetahuan yang Terstruktur
+
+Informasi disusun secara hierarkis agar sistem yang kompleks lebih mudah dipahami.
+
+### Pembelajaran Berbasis Sumber
+
+Setiap konsep dihubungkan dengan spesifikasi atau dokumentasi implementasi resmi.
+
+### Evolusi Berkelanjutan
+
+Ekosistem browser terus berkembang.
+Basis pengetahuan ini dirancang untuk berkembang mengikuti perubahan tersebut.
+
+---
+
+# Tujuan Jangka Panjang
+
+Tujuan jangka panjang repositori ini adalah menjadi **peta konseptual yang komprehensif tentang sistem runtime browser**.
+
+Repositori ini diharapkan membantu pengembang memahami bukan hanya **cara menulis JavaScript**, tetapi juga **bagaimana JavaScript benar-benar dijalankan di dalam browser**.
