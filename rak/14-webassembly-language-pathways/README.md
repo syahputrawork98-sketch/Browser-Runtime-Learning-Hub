@@ -1,4 +1,4 @@
-# Rak: 14 - WebAssembly & Language Pathways
+# Rak: 14 - webassembly language pathways
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 

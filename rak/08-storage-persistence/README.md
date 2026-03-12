@@ -1,4 +1,4 @@
-# Rak: 08 - Storage & Persistence
+# Rak: 08 - storage persistence
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -25,4 +25,5 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
 ## Daftar Buku- B01: storage overview
+- B02: cookies storage isolation
 

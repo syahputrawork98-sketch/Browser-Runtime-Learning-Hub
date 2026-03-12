@@ -1,4 +1,4 @@
-# Rak: 13 - Security & Policies
+# Rak: 13 - security policies
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -25,4 +25,8 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
 ## Daftar Buku- B01: same origin policy
+- B02: cors
+- B03: csp
+- B04: permissions api
+- B05: mime sniffing
 

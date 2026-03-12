@@ -4,29 +4,35 @@ Dokumen ini memetakan referensi induk ke buku-buku di dalam rak agar sumbernya j
 
 ## R01 - HTML Core & DOM
 
-- B01: HTML Standard (core), DOM Standard
+- B01: HTML Standard (WHATWG)
+- B02: DOM Standard
 
 ## R02 - CSS & Styling
 
-- B01: CSSOM, Selectors, CSS Cascade
+- B01: CSSOM
+- B02: Selectors
+- B03: CSS Cascade
 
 ## R03 - Layout & Rendering Pipeline
 
-- B01: CSS Visual Formatting Model, Rendering concepts
+- B01: DOM Standard + CSSOM + CSS Cascade + CSS Visual Formatting Model
+- B02: CSS Visual Formatting Model
 
 ## R04 - JavaScript Runtime
 
 - B01: HTML Standard (event loop)
 - B02: HTML Standard (task/microtask)
+- B03: HTML Standard (agents/realms)
 
 ## R05 - Web APIs & Platform
 
-- B01: Web IDL, platform APIs overview
+- B01: HTML Standard (platform APIs)
+- B02: Web IDL
 
 ## R06 - Networking & Fetch
 
 - B01: Fetch Standard
-- B02: Request/Response, Headers, Caching
+- B02: Fetch Standard (request/response, headers, caching)
 
 ## R07 - URL & Origin
 
@@ -35,12 +41,12 @@ Dokumen ini memetakan referensi induk ke buku-buku di dalam rak agar sumbernya j
 ## R08 - Storage & Persistence
 
 - B01: Storage Standard
-- B02: Cookies & Storage Isolation
+- B02: Storage Standard + Fetch Standard
 
 ## R09 - IndexedDB & Data Stores
 
 - B01: IndexedDB
-- B02: Cache Storage
+- B02: Cache Storage + Service Workers
 
 ## R10 - Workers & Background
 
@@ -60,10 +66,11 @@ Dokumen ini memetakan referensi induk ke buku-buku di dalam rak agar sumbernya j
 
 ## R13 - Security & Policies
 
-- B01: CORS
-- B02: CSP
-- B03: Permissions API
-- B04: MIME Sniffing Standard
+- B01: URL Standard + Fetch Standard
+- B02: CORS
+- B03: Content Security Policy (CSP)
+- B04: Permissions API
+- B05: MIME Sniffing Standard
 
 ## R14 - WebAssembly & Language Pathways
 
@@ -74,8 +81,8 @@ Dokumen ini memetakan referensi induk ke buku-buku di dalam rak agar sumbernya j
 
 ## R15 - Performance & Observability
 
-- B01: DevTools docs
-- B02: Engine docs (V8, JSC, SpiderMonkey)
+- B01: Browser DevTools docs + Browser Release Notes
+- B02: V8/JSC/SpiderMonkey docs
 
 ## R16 - Platform Updates & Compatibility
 
