@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="380" viewBox="0 0 980 380">
+  <defs>
+    <style>
+      .box { fill: #ffffff; stroke: #1f2937; stroke-width: 2; rx: 10; }
+      .title { font: 700 18px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #111827; }
+      .text { font: 14px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #111827; }
+      .muted { font: 12px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #374151; }
+      .arrow { stroke: #111827; stroke-width: 2; fill: none; }
+      .dashed { stroke-dasharray: 6 5; }
+      .cap { stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+    <marker id="arrowHead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111827"/>
+    </marker>
+  </defs>
+
+  <rect x="24" y="28" width="932" height="324" class="box"/>
+  <text x="48" y="62" class="title">C15: Rendering - DOM + CSS -&gt; Style -&gt; Layout -&gt; Paint</text>
+  <text x="48" y="88" class="muted">Fokus: integration points HTML terhadap pipeline rendering dan render-blocking resource.</text>
+
+  <rect x="60" y="120" width="180" height="70" class="box"/>
+  <text x="80" y="150" class="text">DOM</text>
+  <text x="80" y="172" class="muted">hasil parsing</text>
+
+  <rect x="60" y="210" width="180" height="70" class="box"/>
+  <text x="80" y="240" class="text">CSSOM</text>
+  <text x="80" y="262" class="muted">hasil stylesheet</text>
+
+  <rect x="290" y="160" width="170" height="70" class="box"/>
+  <text x="310" y="190" class="text">Style Calc</text>
+  <text x="310" y="212" class="muted">computed style</text>
+
+  <rect x="490" y="160" width="150" height="70" class="box"/>
+  <text x="510" y="190" class="text">Layout</text>
+  <text x="510" y="212" class="muted">geometry</text>
+
+  <rect x="670" y="160" width="120" height="70" class="box"/>
+  <text x="690" y="190" class="text">Paint</text>
+  <text x="690" y="212" class="muted">raster</text>
+
+  <rect x="820" y="160" width="110" height="70" class="box"/>
+  <text x="840" y="190" class="text">Composite</text>
+  <text x="840" y="212" class="muted">present</text>
+
+  <path d="M 240 155 L 290 185" class="arrow cap" marker-end="url(#arrowHead)"/>
+  <path d="M 240 245 L 290 205" class="arrow cap" marker-end="url(#arrowHead)"/>
+  <path d="M 460 195 L 490 195" class="arrow cap" marker-end="url(#arrowHead)"/>
+  <path d="M 640 195 L 670 195" class="arrow cap" marker-end="url(#arrowHead)"/>
+  <path d="M 790 195 L 820 195" class="arrow cap" marker-end="url(#arrowHead)"/>
+
+  <rect x="290" y="250" width="340" height="70" class="box"/>
+  <text x="310" y="280" class="text">Render-blocking resource (konsep)</text>
+  <text x="310" y="302" class="muted">mis. stylesheet menunda style/layout</text>
+
+  <path d="M 460 250 L 460 230" class="arrow dashed cap" marker-end="url(#arrowHead)"/>
+  <text x="474" y="246" class="muted">block</text>
+</svg>
+

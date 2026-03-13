@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360">
+  <defs>
+    <style>
+      .box { fill: #ffffff; stroke: #1f2937; stroke-width: 2; rx: 10; }
+      .title { font: 700 18px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #111827; }
+      .text { font: 14px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #111827; }
+      .muted { font: 12px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #374151; }
+      .arrow { stroke: #111827; stroke-width: 2; fill: none; }
+      .dashed { stroke-dasharray: 6 5; }
+      .cap { stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+    <marker id="arrowHead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111827"/>
+    </marker>
+  </defs>
+
+  <rect x="24" y="28" width="932" height="304" class="box"/>
+  <text x="48" y="62" class="title">C16: Obsolete Features - Compat Support In The Runtime</text>
+  <text x="48" y="88" class="muted">Fokus: markup legacy masih diparse demi backward compatibility, bukan untuk dipakai ulang.</text>
+
+  <rect x="60" y="120" width="220" height="90" class="box"/>
+  <text x="80" y="150" class="text">Legacy Markup</text>
+  <text x="80" y="172" class="muted">obsolete/old patterns</text>
+  <text x="80" y="194" class="muted">still found in the wild</text>
+
+  <rect x="320" y="120" width="220" height="90" class="box"/>
+  <text x="340" y="150" class="text">HTML Parser</text>
+  <text x="340" y="172" class="muted">build DOM anyway</text>
+  <text x="340" y="194" class="muted">compat behavior (konsep)</text>
+
+  <rect x="580" y="120" width="220" height="90" class="box"/>
+  <text x="600" y="150" class="text">DOM + Defaults</text>
+  <text x="600" y="172" class="muted">rendering mapping</text>
+  <text x="600" y="194" class="muted">semantics may be weak</text>
+
+  <rect x="820" y="120" width="110" height="90" class="box"/>
+  <text x="834" y="150" class="text">Outcome</text>
+  <text x="834" y="172" class="muted">works</text>
+  <text x="834" y="194" class="muted">but costly</text>
+
+  <path d="M 280 165 L 320 165" class="arrow cap" marker-end="url(#arrowHead)"/>
+  <path d="M 540 165 L 580 165" class="arrow cap" marker-end="url(#arrowHead)"/>
+  <path d="M 800 165 L 820 165" class="arrow cap" marker-end="url(#arrowHead)"/>
+
+  <rect x="320" y="230" width="610" height="80" class="box"/>
+  <text x="340" y="260" class="text">Tooling Pressure</text>
+  <text x="340" y="282" class="muted">lint/a11y/perf/security checks push modern replacements (konsep)</text>
+  <path d="M 690 210 L 690 230" class="arrow dashed cap" marker-end="url(#arrowHead)"/>
+</svg>
+

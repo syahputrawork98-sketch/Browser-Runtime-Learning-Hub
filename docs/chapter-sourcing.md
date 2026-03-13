@@ -42,6 +42,18 @@ Setiap bab minimal berisi:
 - Istilah kunci
 - Sumber referensi (dengan versi/tanggal)
 
+## Analogi (Opsional)
+
+Setiap bab boleh memiliki analogi untuk membantu pemahaman. Analogi tidak wajib, dan bisa berbeda per bab:
+
+- `## Analogi Singkat`: 1-3 kalimat yang langsung mengunci intuisi.
+- `## Analogi Panjang`: 1-3 paragraf untuk gambaran yang lebih naratif.
+
+Aturan:
+
+- Satu bab boleh punya keduanya, atau hanya salah satu, sesuai kebutuhan.
+- Analogi tidak boleh mengubah fakta teknis; setelah analogi tetap jelaskan alur/istilah/batasan dengan bahasa yang presisi.
+
 ## Struktur Folder Bab
 
 Di dalam folder bab (contoh: `c01-.../`):
@@ -50,4 +62,12 @@ Di dalam folder bab (contoh: `c01-.../`):
 - `docs/` (penjelasan pendukung untuk `README.md`)
 - `assets/` (gambar, SVG)
 - `examples/` (contoh kode/skenario)
+
+## Aturan SVG
+
+Setiap bab boleh memiliki SVG (mis. `assets/overview.svg`) untuk menjelaskan alur/komponen. Aturannya:
+
+- **SVG dibuat terakhir**: kerjakan `README.md` + `docs/` + `examples/` terlebih dulu sampai alur dan istilahnya stabil. Setelah itu baru bikin SVG, supaya diagram mengikuti isi (bukan sebaliknya).
+- SVG disesuaikan dengan kebutuhan bab; isi diagram harus relevan dan tidak sekadar copy-paste template bab lain.
+- Konsistensi gaya visual (font/box/warna) boleh sama agar repo terasa satu keluarga, tetapi struktur dan isi diagram relatif berbeda antar bab.
 

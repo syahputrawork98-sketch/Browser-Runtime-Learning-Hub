@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360">
+  <defs>
+    <style>
+      .box { fill: #ffffff; stroke: #1f2937; stroke-width: 2; rx: 10; }
+      .title { font: 700 18px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #111827; }
+      .text { font: 14px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #111827; }
+      .muted { font: 12px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #374151; }
+      .arrow { stroke: #111827; stroke-width: 2; fill: none; }
+      .dashed { stroke-dasharray: 6 5; }
+      .cap { stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+    <marker id="arrowHead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111827"/>
+    </marker>
+  </defs>
+
+  <rect x="24" y="28" width="932" height="304" class="box"/>
+  <text x="48" y="62" class="title">C14: XML Syntax - Content-Type -&gt; Parser Selection</text>
+  <text x="48" y="88" class="muted">Satu dokumen, dua jalur runtime: HTML parser (tolerant) vs XML parser (strict).</text>
+
+  <rect x="60" y="120" width="250" height="80" class="box"/>
+  <text x="80" y="150" class="text">HTTP Response</text>
+  <text x="80" y="172" class="muted">body + Content-Type</text>
+
+  <rect x="350" y="120" width="260" height="80" class="box"/>
+  <text x="370" y="150" class="text">Parser Selection</text>
+  <text x="370" y="172" class="muted">based on MIME type</text>
+
+  <path d="M 310 160 L 350 160" class="arrow cap" marker-end="url(#arrowHead)"/>
+
+  <rect x="650" y="96" width="270" height="96" class="box"/>
+  <text x="670" y="126" class="text">HTML Parser Path</text>
+  <text x="670" y="148" class="muted">error recovery</text>
+  <text x="670" y="170" class="muted">build DOM anyway</text>
+
+  <rect x="650" y="212" width="270" height="96" class="box"/>
+  <text x="670" y="242" class="text">XML Parser Path</text>
+  <text x="670" y="264" class="muted">well-formedness</text>
+  <text x="670" y="286" class="muted">fatal error possible</text>
+
+  <path d="M 610 144 L 650 144" class="arrow cap" marker-end="url(#arrowHead)"/>
+  <text x="542" y="134" class="muted">text/html</text>
+
+  <path d="M 610 176 L 650 244" class="arrow cap" marker-end="url(#arrowHead)"/>
+  <text x="506" y="214" class="muted">application/xhtml+xml</text>
+
+  <path d="M 650 308 L 920 308" class="arrow dashed cap"/>
+  <text x="650" y="326" class="muted">Implikasi: DOM, namespace, dan error behavior berbeda; ini sering jadi akar bug lintas browser.</text>
+</svg>
+

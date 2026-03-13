@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="340" viewBox="0 0 980 340">
+  <defs>
+    <style>
+      .box { fill: #ffffff; stroke: #1f2937; stroke-width: 2; rx: 10; }
+      .title { font: 700 18px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #111827; }
+      .text { font: 14px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #111827; }
+      .muted { font: 12px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #374151; }
+      .arrow { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrowHead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111827"/>
+    </marker>
+  </defs>
+
+  <rect x="24" y="28" width="932" height="284" class="box"/>
+  <text x="48" y="62" class="title">C09: Communication - Serialize -> Queue -> Dispatch</text>
+  <text x="48" y="88" class="muted">Fokus: structured clone + task scheduling + message event.</text>
+
+  <rect x="60" y="120" width="200" height="92" class="box"/>
+  <text x="80" y="152" class="text">Sender</text>
+  <text x="80" y="174" class="muted">postMessage()</text>
+
+  <rect x="290" y="120" width="200" height="92" class="box"/>
+  <text x="310" y="152" class="text">Serialize</text>
+  <text x="310" y="174" class="muted">structured clone</text>
+
+  <rect x="520" y="120" width="200" height="92" class="box"/>
+  <text x="540" y="152" class="text">Queue Task</text>
+  <text x="540" y="174" class="muted">deliver message</text>
+
+  <rect x="750" y="120" width="200" height="92" class="box"/>
+  <text x="770" y="152" class="text">Receiver</text>
+  <text x="770" y="174" class="muted">message event</text>
+
+  <path d="M 260 166 L 290 166" class="arrow" marker-end="url(#arrowHead)"/>
+  <path d="M 490 166 L 520 166" class="arrow" marker-end="url(#arrowHead)"/>
+  <path d="M 720 166 L 750 166" class="arrow" marker-end="url(#arrowHead)"/>
+
+  <rect x="290" y="230" width="660" height="62" class="box"/>
+  <text x="310" y="262" class="text">Security Check</text>
+  <text x="450" y="262" class="muted">origin / targetOrigin validation</text>
+</svg>

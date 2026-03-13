@@ -1,4 +1,4 @@
-# Rak: 03 - Layout Rendering Pipeline
+﻿# Rak: 03 - Layout Rendering Pipeline
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -17,13 +17,15 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 
 - Buku di rak ini berada di subfolder.
 - Setiap buku wajib memiliki README.md dan CHANGELOG.md.
-- Nama folder buku memakai kebab-case dengan awalan kode (contoh: 01-...).
+- Nama folder buku memakai kebab-case dengan awalan kode (contoh: `b01-...`).
 
 ## Prinsip Fleksibilitas
 
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: Rendering Pipeline
+## Daftar Buku
+
+- B01: Rendering Pipeline
 - B02: Layout Visual Formatting
 

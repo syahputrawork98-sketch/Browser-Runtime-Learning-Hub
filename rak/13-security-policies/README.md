@@ -1,4 +1,4 @@
-# Rak: 13 - Security Policies
+﻿# Rak: 13 - Security Policies
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -17,14 +17,16 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 
 - Buku di rak ini berada di subfolder.
 - Setiap buku wajib memiliki README.md dan CHANGELOG.md.
-- Nama folder buku memakai kebab-case dengan awalan kode (contoh: 01-...).
+- Nama folder buku memakai kebab-case dengan awalan kode (contoh: `b01-...`).
 
 ## Prinsip Fleksibilitas
 
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: Same Origin Policy
+## Daftar Buku
+
+- B01: Same Origin Policy
 - B02: Cors
 - B03: Csp
 - B04: Permissions Api

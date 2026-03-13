@@ -1,4 +1,4 @@
-# Rak: 16 - Platform Updates Compatibility
+﻿# Rak: 16 - Platform Updates Compatibility
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -17,13 +17,15 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 
 - Buku di rak ini berada di subfolder.
 - Setiap buku wajib memiliki README.md dan CHANGELOG.md.
-- Nama folder buku memakai kebab-case dengan awalan kode (contoh: 01-...).
+- Nama folder buku memakai kebab-case dengan awalan kode (contoh: `b01-...`).
 
 ## Prinsip Fleksibilitas
 
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: Release Notes
+## Daftar Buku
+
+- B01: Release Notes
 - B02: Platform Status
 

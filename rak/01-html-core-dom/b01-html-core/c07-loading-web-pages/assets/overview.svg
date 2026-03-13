@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="340" viewBox="0 0 980 340">
+  <defs>
+    <style>
+      .box { fill: #ffffff; stroke: #1f2937; stroke-width: 2; rx: 10; }
+      .title { font: 700 18px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #111827; }
+      .text { font: 14px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #111827; }
+      .muted { font: 12px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial; fill: #374151; }
+      .arrow { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrowHead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111827"/>
+    </marker>
+  </defs>
+
+  <rect x="24" y="28" width="932" height="284" class="box"/>
+  <text x="48" y="62" class="title">C07: Loading Web Pages - Navigasi -> Parsing -> Milestones</text>
+  <text x="48" y="88" class="muted">Fokus: alur high level; detail jaringan ada di rak Networking.</text>
+
+  <rect x="60" y="120" width="190" height="92" class="box"/>
+  <text x="80" y="152" class="text">Navigation</text>
+  <text x="80" y="174" class="muted">start loading</text>
+
+  <rect x="280" y="120" width="190" height="92" class="box"/>
+  <text x="300" y="152" class="text">Request HTML</text>
+  <text x="300" y="174" class="muted">main resource</text>
+
+  <rect x="500" y="120" width="190" height="92" class="box"/>
+  <text x="520" y="152" class="text">Parse + DOM</text>
+  <text x="520" y="174" class="muted">discover CSS/JS</text>
+
+  <rect x="720" y="120" width="190" height="92" class="box"/>
+  <text x="740" y="152" class="text">Render</text>
+  <text x="740" y="174" class="muted">updates UI</text>
+
+  <path d="M 250 166 L 280 166" class="arrow" marker-end="url(#arrowHead)"/>
+  <path d="M 470 166 L 500 166" class="arrow" marker-end="url(#arrowHead)"/>
+  <path d="M 690 166 L 720 166" class="arrow" marker-end="url(#arrowHead)"/>
+
+  <rect x="280" y="230" width="630" height="62" class="box"/>
+  <text x="300" y="262" class="text">Milestones / Readiness</text>
+  <text x="500" y="262" class="muted">dokumen jadi lebih \"siap\" saat kondisi tertentu terpenuhi</text>
+</svg>
