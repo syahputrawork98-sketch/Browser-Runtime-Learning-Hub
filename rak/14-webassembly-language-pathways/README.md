@@ -1,4 +1,4 @@
-# Rak: 14 - webassembly language pathways
+# Rak: 14 - Webassembly Language Pathways
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -24,8 +24,8 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: javascript pathway
-- B02: typescript pathway
-- B03: golang wasm pathway
-- B04: python wasm pathway
+## Daftar Buku- B01: Javascript Pathway
+- B02: Typescript Pathway
+- B03: Golang Wasm Pathway
+- B04: Python Wasm Pathway
 

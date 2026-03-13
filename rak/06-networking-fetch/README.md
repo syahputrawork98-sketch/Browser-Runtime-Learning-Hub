@@ -1,4 +1,4 @@
-# Rak: 06 - networking fetch
+# Rak: 06 - Networking Fetch
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -24,6 +24,6 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: fetch pipeline
-- B02: request response caching
+## Daftar Buku- B01: Fetch Pipeline
+- B02: Request Response Caching
 

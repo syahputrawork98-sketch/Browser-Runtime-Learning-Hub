@@ -1,4 +1,4 @@
-# Rak: 02 - css styling
+# Rak: 02 - Css Styling
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -24,7 +24,7 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: cssom
-- B02: selectors
-- B03: css cascade
+## Daftar Buku- B01: Cssom
+- B02: Selectors
+- B03: Css Cascade
 

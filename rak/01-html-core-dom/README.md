@@ -1,4 +1,4 @@
-# Rak: 01 - html core dom
+# Rak: 01 - Html Core Dom
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -24,6 +24,6 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: html core
-- B02: dom standard
+## Daftar Buku- B01: Html Core
+- B02: Dom Standard
 

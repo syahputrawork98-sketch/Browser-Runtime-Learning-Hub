@@ -1,4 +1,4 @@
-# Rak: 05 - web apis platform
+# Rak: 05 - Web Apis Platform
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -24,6 +24,6 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: web apis overview
-- B02: web idl
+## Daftar Buku- B01: Web Apis Overview
+- B02: Web Idl
 

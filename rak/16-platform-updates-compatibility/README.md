@@ -1,4 +1,4 @@
-# Rak: 16 - platform updates compatibility
+# Rak: 16 - Platform Updates Compatibility
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -24,6 +24,6 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: release notes
-- B02: platform status
+## Daftar Buku- B01: Release Notes
+- B02: Platform Status
 

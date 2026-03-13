@@ -1,4 +1,4 @@
-# Rak: 11 - streams file api
+# Rak: 11 - Streams File Api
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -24,6 +24,6 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: streams
-- B02: file api
+## Daftar Buku- B01: Streams
+- B02: File Api
 

@@ -1,4 +1,4 @@
-# Rak: 10 - workers background
+# Rak: 10 - Workers Background
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -24,6 +24,6 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: workers overview
-- B02: service worker lifecycle
+## Daftar Buku- B01: Workers Overview
+- B02: Service Worker Lifecycle
 

@@ -1,4 +1,4 @@
-# Rak: 04 - javascript runtime
+# Rak: 04 - Javascript Runtime
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -24,7 +24,7 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: event loop
-- B02: tasks microtasks
-- B03: agents realms
+## Daftar Buku- B01: Event Loop
+- B02: Tasks Microtasks
+- B03: Agents Realms
 

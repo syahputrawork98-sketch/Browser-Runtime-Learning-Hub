@@ -1,4 +1,4 @@
-# Rak: 03 - layout rendering pipeline
+# Rak: 03 - Layout Rendering Pipeline
 
 Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu tema utama yang sama, namun dari sudut pandang yang berbeda.
 
@@ -24,6 +24,6 @@ Rak ini adalah domain besar dalam perpustakaan. Semua buku di sini membahas satu
 - Jumlah buku di rak ini **mengikuti referensi** dan kebutuhan, tidak dipatok.
 - Buku boleh bertambah kapan saja sesuai perkembangan referensi.
 
-## Daftar Buku- B01: rendering pipeline
-- B02: layout visual formatting
+## Daftar Buku- B01: Rendering Pipeline
+- B02: Layout Visual Formatting
 
