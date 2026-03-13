@@ -1,4 +1,4 @@
-# Buku: B01 - javascript pathway
+﻿# Buku: B01 - javascript pathway
 
 Buku ini membahas topik spesifik terkait cara kerja browser. Bahasa pemrograman dapat disebut **hanya untuk menjelaskan alur ke browser**, bukan untuk mempelajari bahasanya.
 
@@ -36,13 +36,14 @@ Buku ini membahas topik spesifik terkait cara kerja browser. Bahasa pemrograman 
 
 ## Sumber Utama
 
-- ECMAScript Specification (ECMA-262)
-- HTML Standard (WHATWG)
+- ECMAScript
+- HTML Standard (JS pathway)
+
+
 ## File Buku
 
-- README.md: ringkasan dan aturan buku
-- CHANGELOG.md: catatan rilis dan perubahan
-- docs/: konten bab, gambar, contoh, dan lampiran
-
-
+- `README.md`: ringkasan dan aturan buku
+- `CHANGELOG.md`: catatan rilis dan perubahan
+- `docs/`: dokumen pendukung untuk buku ini
+- `c01-.../`, `c02-.../`: folder bab (sejajar dengan `docs/`)
 

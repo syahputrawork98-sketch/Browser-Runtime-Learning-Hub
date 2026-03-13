@@ -51,9 +51,14 @@ Changelog hanya ada di level buku. Rak dan root tidak memiliki changelog.
 
 ## Struktur Buku
 
-Di level buku, hanya ada dua file di root folder buku:
-- README.md`n- CHANGELOG.md`n
-Konten lain (bab, gambar, contoh, dll) ditempatkan di subfolder docs/ di dalam buku.
+Di level buku, struktur foldernya seperti ini:
+
+- `README.md`
+- `CHANGELOG.md`
+- `docs/` (dokumen pendukung untuk buku ini)
+- `c01-.../`, `c02-.../`, dst (bab; sejajar dengan `docs/`)
+
+Catatan: bab tidak diletakkan di dalam `docs/`.
 
 ## Prinsip Fleksibilitas
 

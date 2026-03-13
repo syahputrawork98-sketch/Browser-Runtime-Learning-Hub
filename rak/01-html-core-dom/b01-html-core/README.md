@@ -1,31 +1,34 @@
-# Buku: B01 - HTML Core
+﻿# Buku: B01 - HTML Core
 
-Buku ini membahas topik spesifik terkait cara kerja browser. Bahasa pemrograman dapat disebut **hanya untuk menjelaskan alur ke browser**, bukan untuk mempelajari bahasanya.
+Buku ini membahas inti HTML sebagai fondasi runtime browser: bagaimana dokumen HTML diparse, dibangun menjadi DOM, dipakai untuk membangun tree render, dan menjadi pusat interaksi antara markup, skrip, styling, serta networking. Fokusnya **cara kerja browser**, bukan belajar HTML dari sisi sintaks.
 
 ## Tujuan Buku
 
-- Menjelaskan mekanisme browser yang relevan dengan topik ini
-- Menjabarkan alur dari input ke output di browser
-- Mencatat batasan, perilaku penting, dan implikasi runtime
+- Menjelaskan alur kerja browser saat memproses HTML dari network ke DOM
+- Memetakan komponen inti HTML runtime (parser, tree builder, DOM integration)
+- Menjadi basis bagi buku DOM, CSS, dan Rendering Pipeline
 
 ## Cara Kerja (Gambaran Besar)
 
-- Buku ini diambil dari **referensi induk** yang relevan.
-- Bab-bab disusun mengikuti struktur referensi.
-- Perubahan direkam melalui CHANGELOG.md.
+1. Browser menerima respon HTML dari jaringan (resource utama).
+2. HTML parser memecah bytes menjadi token dan membangun DOM tree.
+3. Parser berinteraksi dengan tokenizer, tree builder, dan DOM APIs.
+4. Sub-resource (CSS, JS, gambar) dipicu selama parsing.
+5. DOM tree dipakai oleh rendering pipeline untuk menghasilkan tampilan.
 
 ## Ruang Lingkup
 
-- Mekanisme browser yang terlibat
-- Alur kerja dari input ke output di browser
-- Batasan dan perilaku penting
+- Parsing HTML dan pembentukan DOM
+- Integrasi HTML dengan DOM, CSS, dan scripting
+- Resource discovery (script, stylesheet, image) selama parsing
+- Dampak parsing terhadap rendering dan event loop
 
 ## Aturan Bab
 
 - Bab diambil dari buku besar/dokumen referensi terkait.
 - Struktur bab mengikuti referensi, bukan ditentukan manual.
 - Semua bab dari referensi dapat dimasukkan ke buku ini.
-- Penamaan folder bab memakai kebab-case dengan awalan kode (contoh: c01-...).
+- Penamaan folder bab memakai `kebab-case` dengan awalan kode (contoh: `c01-...`).
 - Catat sumber dan versi referensi di setiap bab.
 
 ## Prinsip Fleksibilitas
@@ -37,10 +40,12 @@ Buku ini membahas topik spesifik terkait cara kerja browser. Bahasa pemrograman 
 ## Sumber Utama
 
 - HTML Standard (WHATWG)
+
+
 ## File Buku
 
-- README.md: ringkasan dan aturan buku
-- CHANGELOG.md: catatan rilis dan perubahan
-- docs/: konten bab, gambar, contoh, dan lampiran
-
+- `README.md`: ringkasan dan aturan buku
+- `CHANGELOG.md`: catatan rilis dan perubahan
+- `docs/`: dokumen pendukung untuk buku ini
+- `c01-.../`, `c02-.../`: folder bab (sejajar dengan `docs/`)
 

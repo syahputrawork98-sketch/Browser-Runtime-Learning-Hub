@@ -1,19 +1,15 @@
-# Bab
+﻿# Docs Buku
 
-Folder ini berisi kumpulan bab untuk buku ini. Setiap bab dibuat mengikuti referensi induk.
+Folder `docs/` berisi dokumen pendukung untuk buku ini (catatan, pemetaan bab, lampiran, dsb).
 
-## Struktur Bab
+## Lokasi Bab
 
-Setiap bab berada di folder terpisah dengan nama:
+Bab berada sejajar dengan `docs/` di root folder buku:
 
-- c01-..., c02-..., c03-..., dst.
+- `c01-.../`, `c02-.../`, `c03-.../`, dst.
 
-Di dalam folder bab:
+Struktur minimal di dalam folder bab:
 
-- README.md berisi isi bab utama
-- ssets/ untuk gambar (SVG)
-- examples/ untuk contoh kode atau skenario
-
-## Catatan
-
-Nama dan jumlah bab mengikuti referensi utama, tidak dipatok.
+- `README.md`
+- `assets/` (SVG)
+- `examples/`

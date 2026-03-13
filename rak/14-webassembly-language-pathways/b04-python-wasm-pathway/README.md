@@ -1,4 +1,4 @@
-# Buku: B04 - python wasm pathway
+﻿# Buku: B04 - python wasm pathway
 
 Buku ini membahas topik spesifik terkait cara kerja browser. Bahasa pemrograman dapat disebut **hanya untuk menjelaskan alur ke browser**, bukan untuk mempelajari bahasanya.
 
@@ -37,13 +37,14 @@ Buku ini membahas topik spesifik terkait cara kerja browser. Bahasa pemrograman 
 ## Sumber Utama
 
 - WebAssembly
-- Python toolchain docs
-- HTML Standard (WHATWG)
+- Python toolchain
+- HTML Standard
+
+
 ## File Buku
 
-- README.md: ringkasan dan aturan buku
-- CHANGELOG.md: catatan rilis dan perubahan
-- docs/: konten bab, gambar, contoh, dan lampiran
-
-
+- `README.md`: ringkasan dan aturan buku
+- `CHANGELOG.md`: catatan rilis dan perubahan
+- `docs/`: dokumen pendukung untuk buku ini
+- `c01-.../`, `c02-.../`: folder bab (sejajar dengan `docs/`)
 

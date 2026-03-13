@@ -1,4 +1,4 @@
-# Buku: B02 - typescript pathway
+﻿# Buku: B02 - typescript pathway
 
 Buku ini membahas topik spesifik terkait cara kerja browser. Bahasa pemrograman dapat disebut **hanya untuk menjelaskan alur ke browser**, bukan untuk mempelajari bahasanya.
 
@@ -36,14 +36,15 @@ Buku ini membahas topik spesifik terkait cara kerja browser. Bahasa pemrograman 
 
 ## Sumber Utama
 
-- TypeScript Handbook (konteks compile)
-- ECMAScript Specification (ECMA-262)
-- HTML Standard (WHATWG)
+- TypeScript Handbook
+- ECMAScript
+- HTML Standard
+
+
 ## File Buku
 
-- README.md: ringkasan dan aturan buku
-- CHANGELOG.md: catatan rilis dan perubahan
-- docs/: konten bab, gambar, contoh, dan lampiran
-
-
+- `README.md`: ringkasan dan aturan buku
+- `CHANGELOG.md`: catatan rilis dan perubahan
+- `docs/`: dokumen pendukung untuk buku ini
+- `c01-.../`, `c02-.../`: folder bab (sejajar dengan `docs/`)
 

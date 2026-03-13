@@ -1,4 +1,4 @@
-# Aturan Pengambilan Bab dari Referensi
+﻿# Aturan Pengambilan Bab dari Referensi
 
 Bab di dalam repositori ini **diambil dari buku besar atau dokumen referensi resmi** yang relevan, lalu dipindahkan/dipecah sesuai pengelompokan rak dan buku.
 
@@ -12,6 +12,10 @@ Bab di dalam repositori ini **diambil dari buku besar atau dokumen referensi res
 
 - Kode bab: `C01`, `C02`, `C03`, ...
 - Nama folder bab memakai `kebab-case` dengan awalan kode (contoh: `c01-event-loop`).
+
+## Lokasi Bab
+
+Folder bab berada di root folder buku (sejajar dengan `docs/`) dengan pola `c01-...`, `c02-...`, dst.
 
 ## Metadata Wajib per Bab
 
@@ -37,4 +41,13 @@ Setiap bab minimal berisi:
 - Alur utama (langkah-langkah)
 - Istilah kunci
 - Sumber referensi (dengan versi/tanggal)
+
+## Struktur Folder Bab
+
+Di dalam folder bab (contoh: `c01-.../`):
+
+- `README.md` (isi utama bab)
+- `docs/` (penjelasan pendukung untuk `README.md`)
+- `assets/` (gambar, SVG)
+- `examples/` (contoh kode/skenario)
 
