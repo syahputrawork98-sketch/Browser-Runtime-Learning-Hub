@@ -1,30 +1,45 @@
-# Browser Runtime Knowledge Base
+# 🌐 Browser Runtime: The Universal Graphics & Execution Engine
 
-Repository ini adalah monorepo berbentuk "perpustakaan" yang membahas **cara kerja browser runtime**. Fokus utamanya bukan belajar bahasa pemrograman, melainkan memahami **bagaimana browser bekerja**, bagaimana alur eksekusi terjadi, dan bagaimana berbagai sumber/teknologi masuk ke runtime browser.
+> **"The Browser is no longer a document viewer; it is a High-Performance Universal OS for the Web."**
 
-## Apa Itu Repo Ini
+Repositori ini adalah **Blueprint Utama (Rak 02)** dalam ekosistem *The Learning Matrix*. Fokus utamanya adalah membedah **Host Environment** (Lingkungan Inang) yang memungkinkan komputasi terjadi di sisi klien, melintasi batas-batas bahasa pemrograman.
 
-Repo ini menyimpan pengetahuan terstruktur tentang runtime browser dalam bentuk:
+---
 
-- **Rak**: domain/tema besar (misalnya runtime, rendering, networking)
-- **Buku**: topik spesifik di dalam satu rak
-- **Bab**: bagian-bagian detail dari buku, mengikuti referensi utama
+## 🎯 Visi Arsitektural: Engine-First (The Why)
+Mayoritas pengembang terjebak dalam sintaks bahasa (JS/TS) tanpa memahami **Mesin Tata Letak (Blink)** dan **Mesin Eksekusi (V8)** yang sebenarnya menggerakkan aplikasi mereka. 
 
-Dengan struktur ini, pengetahuan bisa bertumbuh pelan-pelan, konsisten, dan mudah di-update ketika referensi utama berubah.
+Visi repositori ini adalah membedah **The Web Platform** sebagai target komputasi universal:
+1. **Rendering Engine**: Bagaimana piksel dilukis (Critical Rendering Path).
+2. **Execution Engine**: Bagaimana instruksi dijalankan (V8 Engine).
+3. **WASM Runtime**: Jembatan performa tinggi untuk bahasa non-JS.
 
-## Tujuan
+## 🧬 Jalur Matriks: 5-Language Intersection (The What)
+Sesuai konstitusi `00-Mapping-Road`, runtime ini adalah wadah bagi **5 Sumbu-Y Utama**:
+- **JavaScript & TypeScript**: Native citizens di V8.
+- **Rust, Golang, & Python**: Warga negara kelas satu melalui **WebAssembly (WASM)**.
 
-- Menjadi sumber belajar dan rujukan internal tentang cara kerja browser
-- Mengurangi kebingungan dari "buku besar" dengan memecahnya ke buku-buku kecil
-- Menjaga dokumentasi tetap hidup sesuai perkembangan browser
+Di sini kita tidak belajar "Cara menulis JS", melainkan belajar **"Bagaimana Engine menangani input dari ke-5 bahasa tersebut"** untuk membangun antarmuka yang responsif dan bebas hambatan (Jank-free).
 
-## Cara Kerja (Ringkas)
+---
 
-1. Referensi utama dianggap sebagai **buku besar**.
-2. Isi buku besar dipecah menjadi **buku** dan **bab** berdasarkan rak yang relevan.
-3. Perubahan pada referensi utama dicatat pada **CHANGELOG** di level buku.
+## 🏗️ Struktur 8-Rak (The Taxonomy)
+1. **RAK-01: Anatomy & Landscape** (Evolusi Browser & Arsitektur Multi-Process).
+2. **RAK-02: Foundation & Core Rules** (The Event Loop & Rendering Pipeline).
+3. **RAK-03: Evolution & Interfacing** (Web APIs & Host Objects).
+4. **RAK-04: Core Mechanics & Internals** (Kompilasi JIT & Memory Management).
+5. **RAK-05: Ecosystem & Tooling** (Profiling & Engine Monitoring).
+6. **RAK-06: The Underworld** (Shared Memory & Multi-threading).
+7. **RAK-07: Specialization** (Low-latency APIs & Offline-first).
+8. **RAK-08: Matrix Intersection** (The Bridge: How 5 Languages Talk to the Engine).
 
-## Struktur Root
+---
+
+## 📊 Status Proyek
+Detail status per Rak dapat dilihat di [status.md](./status.md).
+
+> [!NOTE]
+> Proyek ini mengikuti standar dokumentasi **Gold Standard PPM V4**.
 
 - `README.md` adalah pendahuluan ini.
 - `docs/` berisi dokumentasi pendukung (pemetaan, aturan, referensi).
