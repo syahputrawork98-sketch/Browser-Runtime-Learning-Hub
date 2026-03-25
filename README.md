@@ -7,7 +7,10 @@ Repositori ini adalah **Blueprint Utama (Rak 02)** dalam ekosistem *The Learning
 ---
 
 ## 🎯 Visi Arsitektural: Engine-First (The Why)
-Mayoritas pengembang terjebak dalam sintaks bahasa (JS/TS) tanpa memahami **Mesin Tata Letak (Blink)** dan **Mesin Eksekusi (V8)** yang sebenarnya menggerakkan aplikasi mereka. 
+Browser Runtime bukan sekadar penampil dokumen, melainkan sebuah **Sistem Operasi Grafis Universal (Host Environment)** yang menjembatani kode abstrak dengan persepsi visual manusia melalui tiga pilar utama:
+1.  **Blink (The Painter)**: Mesin tata letak dan perender piksel.
+2.  **V8 (The Processor)**: Mesin pemroses logika biner.
+3.  **Web APIs (The Interactor)**: Jembatan interaksi dengan layar, input, dan jaringan.
 
 Visi repositori ini adalah membedah **The Web Platform** sebagai target komputasi universal:
 1. **Rendering Engine**: Bagaimana piksel dilukis (Critical Rendering Path).

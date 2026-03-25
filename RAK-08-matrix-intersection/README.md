@@ -11,5 +11,8 @@ Titik temu antara Bahasa dan Runtime Browser.
 
 ---
 ## 📂 Struktur
-- **SR-01_Cross_Platform_Bindings**
-- **SR-02_Matrix_Mapping**
+- **SR-01_JavaScript_Native**
+- **SR-02_TypeScript_Erasure**
+- **SR-03_Rust_WASM_Bridge**
+- **SR-04_Go_WASM_Interop**
+- **SR-05_Python_Pyodide_WASM**
