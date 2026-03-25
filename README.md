@@ -50,9 +50,9 @@ Detail status per Rak dapat dilihat di [status.md](./status.md).
 
 ## Dokumentasi
 
-- [docs/README.md](i:/Workspace/Workspace-Syahputrawork/Browser-Runtime-Knowledge-Base/docs/README.md)
-- [docs/root-governance.md](i:/Workspace/Workspace-Syahputrawork/Browser-Runtime-Knowledge-Base/docs/root-governance.md)
-- [docs/references.md](i:/Workspace/Workspace-Syahputrawork/Browser-Runtime-Knowledge-Base/docs/references.md)
+- [docs/README.md](./docs/README.md)
+- [docs/root-governance.md](./docs/root-governance.md)
+- [docs/references.md](./docs/references.md)
 
 ## Prinsip Utama
 

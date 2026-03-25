@@ -27,11 +27,11 @@ flowchart TB
 
 ## Pemetaan
 
-- [mapping.md](i:/Workspace/Workspace-Syahputrawork/Browser-Runtime-Knowledge-Base/docs/mapping.md)
+- [mapping.md](mapping.md)
 
 ## Tata Kelola
 
-- [root-governance.md](i:/Workspace/Workspace-Syahputrawork/Browser-Runtime-Knowledge-Base/docs/root-governance.md)
+- [root-governance.md](root-governance.md)
 
 ## Catatan
 
@@ -39,13 +39,13 @@ flowchart TB
 
 ## Panduan Sumber Bab
 
-- [chapter-sourcing.md](i:/Workspace/Workspace-Syahputrawork/Browser-Runtime-Knowledge-Base/docs/chapter-sourcing.md)
+- [chapter-sourcing.md](chapter-sourcing.md)
 
 ## Referensi
 
-- [references.md](i:/Workspace/Workspace-Syahputrawork/Browser-Runtime-Knowledge-Base/docs/references.md)
+- [references.md](references.md)
 
 ## Pemetaan Referensi
 
-- [reference-mapping.md](i:/Workspace/Workspace-Syahputrawork/Browser-Runtime-Knowledge-Base/docs/reference-mapping.md)
+- [reference-mapping.md](reference-mapping.md)
 
