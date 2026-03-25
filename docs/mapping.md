@@ -1,88 +1,47 @@
-﻿# Pemetaan Knowledge Base (Berdasarkan Referensi Induk)
+# Pemetaan Knowledge Base (Berdasarkan Referensi Induk)
 
 Pemetaan ini menyusun "rak" (domain/tema) dan "buku" (topik spesifik) untuk **Browser Runtime Knowledgebase**. Fokus utamanya adalah **cara kerja browser**, termasuk **alur dari berbagai bahasa sampai bisa berjalan di browser**. Bahasa boleh dibahas, tetapi hanya untuk menjelaskan **mekanisme runtime**, bukan mempelajari bahasanya.
 
-## Rak Utama (16) dan Buku
+## Rak Utama (8) dan Sub-Rack
 
-1. **R01 - HTML Core & DOM**
-   - B01: HTML Core
-   - B02: DOM Standard
+1. **RAK-01 - Anatomy & Landscape** (Directly to Books)
+   - BK-01: Market Share & Engines
+   - BK-02: Spec & Standards (WHATWG/W3C)
 
-2. **R02 - CSS & Styling**
-   - B01: CSSOM
-   - B02: Selectors
-   - B03: CSS Cascade
+2. **RAK-02 - Foundation & Core Rules**
+   - SR-01: V8 Engine
+   - SR-02: Event Loop
+   - SR-03: Rendering Pipeline
 
-3. **R03 - Layout & Rendering Pipeline**
-   - B01: Rendering Pipeline
-   - B02: Layout & Visual Formatting
+3. **RAK-03 - Evolution & Interfacing**
+   - SR-01: DOM & CSSOM
+   - SR-02: Network APIs
+   - SR-03: Web Storage
 
-4. **R04 - JavaScript Runtime**
-   - B01: Event Loop
-   - B02: Task vs Microtask
-   - B03: Agents & Realms
+4. **RAK-04 - Core Mechanics**
+   - SR-01: Compilation Strategy
+   - SR-02: Memory & GC
+   - SR-03: Internal Bindings
 
-5. **R05 - Web APIs & Platform**
-   - B01: Web APIs Overview
-   - B02: Web IDL
+5. **RAK-05 - Ecosystem & Tooling**
+   - SR-01: DevTools Mastery
+   - SR-02: Profiling & Optimization
 
-6. **R06 - Networking & Fetch**
-   - B01: Fetch Pipeline
-   - B02: Request/Response & Caching
+6. **RAK-06 - The Underworld**
+   - SR-01: Multi-Threading
+   - SR-02: Background Tasks
 
-7. **R07 - URL & Origin**
-   - B01: URL & Origin
+7. **RAK-07 - Specialization & Edge**
+   - SR-01: WebAssembly
+   - SR-02: Emerging APIs
 
-8. **R08 - Storage & Persistence**
-   - B01: Storage Overview
-   - B02: Cookies & Storage Isolation
-
-9. **R09 - IndexedDB & Data Stores**
-   - B01: IndexedDB
-   - B02: Cache Storage
-
-10. **R10 - Workers & Background**
-    - B01: Workers Overview
-    - B02: Service Worker Lifecycle
-
-11. **R11 - Streams & File API**
-    - B01: Streams
-    - B02: File API
-
-12. **R12 - Realtime & Transport**
-    - B01: WebSocket
-    - B02: WebRTC
-    - B03: WebTransport
-
-13. **R13 - Security & Policies**
-    - B01: Same-Origin Policy
-    - B02: CORS
-    - B03: CSP
-    - B04: Permissions API
-    - B05: MIME Sniffing
-
-14. **R14 - WebAssembly & Language Pathways**
-    - B01: JavaScript Pathway
-    - B02: TypeScript Pathway
-    - B03: Golang WASM Pathway
-    - B04: Python WASM Pathway
-
-15. **R15 - Performance & Observability**
-    - B01: DevTools Overview
-    - B02: Engine Observability
-
-16. **R16 - Platform Updates & Compatibility**
-    - B01: Release Notes
-    - B02: Platform Status
-
-## Contoh Buku (Topik Spesifik)
-
-- "Alur TypeScript ke Browser: Transpile -> JS -> Engine -> Render"
-- "Alur Golang ke Browser: WASM -> JS Bridge -> Web APIs"
-- "Event Loop: Render vs Task Queue"
-- "Rendering Pipeline: Style -> Layout -> Paint -> Composite"
-- "Fetch Pipeline: DNS -> TLS -> HTTP"
+8. **RAK-08 - Matrix Intersection**
+   - SR-01: JavaScript Native
+   - SR-02: TypeScript Erasure
+   - SR-03: Rust WASM Bridge
+   - SR-04: Go WASM Interop
+   - SR-05: Python Pyodide WASM
 
 ## Relasi Lintas Rak
 
-Beberapa buku akan lintas rak (mis. "Alur TS ke Browser" menyentuh Runtime, Networking, dan Web APIs). Keterkaitan ini bisa ditandai di metadata buku.
+Setiap modul dapat berinteraksi lintas rak (mis. WebAssembly di RAK-07 berhubungan erat dengan Matrix Intersection di RAK-08).
